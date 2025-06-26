@@ -27,9 +27,9 @@ public class Hijo extends Padre{
     public void setDataClase1(){
         Clase1 objeto1 = new Clase1();
         objeto1.x = 15; //public
-        objeto1.y = 22;
+        objeto1.setY(22);
         objeto1.setZ(87);
-        objeto1.w = 38;
+        //objeto1.w = 38;
     }
 
     @Override

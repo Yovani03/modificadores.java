@@ -8,11 +8,11 @@ public class Clase2 extends Clase1{
 
     public void setDate(){
         this.x = 12; // public
-        this.y = 9; //protented
+        this.setY(9); //protented
         setZ(18);
         this.w = 19;
     }
     public String getData(){
-        return "Datos de Clase2: x=" + this.x + "y=" + this.y + "z=" + getZ();
+        return "Datos de Clase2: x=" + this.x + "y=" + this.getY() + "z=" + getZ();
     }
 }
